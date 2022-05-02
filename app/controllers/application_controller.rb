@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
     @page_name = "home"
    
-    
+    render layout: true
   end
 
 
