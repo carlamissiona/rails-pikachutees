@@ -3,8 +3,9 @@ class ApplicationController < ActionController::Base
   def index
 
     @page_name = "home"
-   
-    render layout: true
+    layout: true
+    # render layout: true
+    render 'application/index'
   end
 
 
